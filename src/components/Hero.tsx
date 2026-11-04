@@ -1,4 +1,4 @@
-import logo from '@/assets/Full_Logo_Design_Complete.png';
+import emblem from '@/assets/Official_logo_K_complete.png';
 import { PHONE_HREF } from '@/constants/site';
 
 export default function Hero() {
@@ -31,7 +31,7 @@ export default function Hero() {
           </div>
         </div>
         <div className="hero-symbol">
-          <img src={logo} alt="Kraft Electric logo" />
+          <img src={emblem} alt="Kraft Electric lightning emblem" />
         </div>
       </div>
       <div className="hero-footer">

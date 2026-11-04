@@ -1,5 +1,6 @@
 import { useState } from 'react';
-import { Menu, X, Zap } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
+import emblem from '@/assets/Official_logo_K_complete.png';
 
 const navLinks = [
   { label: 'Home', href: '#home' },
@@ -15,9 +16,7 @@ export default function SiteHeader() {
   return (
     <header className="nav">
       <a href="#home" className="brand">
-        <span className="brand-mark">
-          <Zap size={22} strokeWidth={2.5} />
-        </span>
+        <img src={emblem} alt="" />
         <span>
           KRAFT <em>ELECTRIC</em>
         </span>
