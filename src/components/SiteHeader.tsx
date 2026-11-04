@@ -16,7 +16,9 @@ export default function SiteHeader() {
   return (
     <header className="nav">
       <a href="#home" className="brand">
-        <img src={emblem} alt="" />
+        <span className="logo-circle">
+          <img src={emblem} alt="" />
+        </span>
         <span>
           KRAFT <em>ELECTRIC</em>
         </span>

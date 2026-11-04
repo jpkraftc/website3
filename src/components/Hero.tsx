@@ -31,7 +31,9 @@ export default function Hero() {
           </div>
         </div>
         <div className="hero-symbol">
-          <img src={emblem} alt="Kraft Electric lightning emblem" />
+          <div className="logo-circle">
+            <img src={emblem} alt="Kraft Electric lightning emblem" />
+          </div>
         </div>
       </div>
       <div className="hero-footer">
